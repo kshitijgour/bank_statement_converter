@@ -8,10 +8,10 @@ groq_api_key = "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"
 
 # Streamlit page config
 st.set_page_config(page_title="Bank Statement with Chatbot", layout="centered")
-st.title("📄 Bank Statement Converter + 🤖 Chatbot")
+st.title(" Bank Statement Converter ")
 
 # Upload bank statement
-uploaded_file = st.file_uploader("📤 Upload your bank statement (PDF)", type="pdf")
+uploaded_file = st.file_uploader(" Upload your bank statement (PDF)", type="pdf")
 
 if uploaded_file is not None:
     import io
